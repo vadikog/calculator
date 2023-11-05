@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 10px;
+}
+.body-bg {
+    display: flex;
+    justify-content: center;
+    width: 338px;
+    height: 600px;
+    border: none;
+    margin: 50px auto 0 auto;
+}
+.main-block {
+    width: 338px;
+    height: 600px;
+    background-image: url(./img/bg-clock.jpg); 
+       
+}
+.disp {
+    margin: 195px auto auto auto;
+    width: 210px;
+    height: 55px;
+    border: 0px solid darkblue;
+    background: transparent;
+    margin-bottom: 68px;
+
+
+}
+#display{
+    font-size: 2.5rem;
+    font-style: italic; 
+    width: 208px;
+    height: 53px;
+    background: transparent;
+    border: none;
+}
+#display:focus {
+    outline: none;
+}
+.btnbox {
+    width: 255px;
+    margin: 0px auto auto auto;
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(5);
+    background: transparent;
+    border: 0px;
+}
+
+.btnres {
+    width: 248px;
+    padding-right: 40px;
+    background: transparent;
+    text-align: right;
+   
+}
+
+.btn-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 248px;
+    height: 25px;
+        
+}
+.btn {
+    background: transparent;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    border: none;
+    transition: all 0.2s ease-in-out;
+        &:hover{
+        color:red;
+    }
+}
