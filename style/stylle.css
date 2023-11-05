@@ -28,8 +28,9 @@ html {
   margin-bottom: 68px;
 }
 #display {
-  font-size: 2.5rem;
-  font-style: italic;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: normal;
   width: 208px;
   height: 53px;
   background: transparent;
